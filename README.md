@@ -16,9 +16,6 @@ I decided to drop Item_Identifier, Outlet_Identifier, and Outlet_Establishment_y
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
-
-
 #### Sales Based on MRP
 ![image](https://user-images.githubusercontent.com/85464771/202827982-aeb764b3-5fe1-4c43-bd66-9818b288355c.png)
 
