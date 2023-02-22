@@ -27,11 +27,11 @@ As MRP rises, so do the sales.
 There is a very slight negative trend in this graph. Item visibilty does not affect sales much, but it appears that sales drop slightly as visibility rises.
 
 #### Coefficients
-![image]https://github.com/Josh-XS/Sales-predictions/blob/main/LinearRegression.png
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/LinearRegression.png)
 The three most impactful features are the three types of supermarkets.
 
 #### Feature Importances
-![image]https://github.com/Josh-XS/Sales-predictions/blob/main/DecisionTree.png
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/DecisionTree.png)
 The five most important features include the three types of supermarkets, with item MRP at the top.
 
 ## Model
