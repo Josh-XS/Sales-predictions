@@ -24,9 +24,17 @@ As MRP rises, so do the sales.
 #### Sales of Different Item Types
 ![image](https://user-images.githubusercontent.com/85464771/202827990-e871e618-76db-4439-888e-7d2a26c34ce4.png)
 
-## Model
-
 There is a very slight negative trend in this graph. Item visibilty does not affect sales much, but it appears that sales drop slightly as visibility rises.
+
+#### Coefficients
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/LinearRegression.png)
+The three most impactful features are the three types of supermarkets.
+
+#### Feature Importances
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/DecisionTree.png)
+The five most important features include the three types of supermarkets, with item MRP at the top.
+
+## Model
 
 I decided to use the decision tree regressor because it was the most accurate model
 The R2 was around 0.6 meaning that the model could predict 60% of variation in the target.
