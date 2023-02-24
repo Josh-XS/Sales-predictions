@@ -34,6 +34,25 @@ The three most impactful features are the three types of supermarkets.
 ![image](https://github.com/Josh-XS/Sales-predictions/blob/main/DecisionTree.png)
 The five most important features include the three types of supermarkets, with item MRP at the top.
 
+#### SHAP Barplot
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/SHAPBar.png)
+Higher MRP is still at the top, but SHAP shows that visibility, weight, and outlet size may hold some importance.
+
+#### SHAP Dotplot
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/SHAPBar.png)
+A high MRP and the outlet type of one of the three supermarkets increased prediction of higher sales.
+
+#### LIME
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/LIMEhigh.png)
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/LIMElow.png)
+The lime graphs show the items with high MRP, which increases sales, are mostly in supermarket-1 and low MRP items are mostly in supermarket-3.
+
+#### Force Plot
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/force_high.png)
+Items with max MRP push the sales higher, but outlet type supermarket-1 helps as well.
+![image](https://github.com/Josh-XS/Sales-predictions/blob/main/images/force_low.png)
+Items with minimum MRP lower the sales, but supermarket-3 pushes them significantly higher.
+
 ## Model
 
 I decided to use the decision tree regressor because it was the most accurate model
